@@ -1,9 +1,12 @@
 import React from 'react';
-import MyInfo from './MyInfo';
 
 const MainContent = () => 
 	(
-    <MyInfo />
+    <div>
+      <input type="checkbox" /><p>Hello</p><br />
+      <input type="checkbox" /><p>Hello</p><br />
+      <input type="checkbox" /><p>Hello</p><br />
+    </div>
 	);
 
 
